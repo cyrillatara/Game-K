@@ -7,9 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfileComponent {
 
-  username = "gideonganteng_25";
-  name = "Gideon";
-  jk = "Laki-laki";
-  kota = "Pontianak"
+  username = "cyrilla37";
+  name = "Cyrilla Tara Gracia";
+  jk = "Perempuan";
+  kota = "Kubu Raya"
 
 }
