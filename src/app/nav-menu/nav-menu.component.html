@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="#">GameKu</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link {{ moduleName == 'home' ? 'active' : '' }}" [routerLink]="['/']" routerLinkActive="router-link-active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  {{ moduleName == 'profile' ? 'active' : '' }}" [routerLink]="['/profile']" routerLinkActive="router-link-active">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{ moduleName == 'tournament' ? 'active' : '' }}" [routerLink]="['/tournament']" routerLinkActive="router-link-active">Tournament</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{ moduleName == 'leaderboard' ? 'active' : '' }}" [routerLink]="['/leaderboard']" routerLinkActive="router-link-active">Leaderboard</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
